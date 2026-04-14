@@ -3,7 +3,6 @@ body {
 }
 
 div {
-    display: flexbox;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     align-content: center;
     justify-content: center;
@@ -13,6 +12,7 @@ div {
 
 div h2 {
     color: rgb(219, 171, 109);
+    text-align: center;
 }
 
 h1 {
@@ -20,9 +20,39 @@ h1 {
     text-align: center;
 }
 
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+ol {
+    display: inline-block;
+    text-align: left;
+}
+
+li {
+    scale: 1;
+    transition: scale 1s;
+}
+
+li:hover{
+    scale: 1.5;
+}
+
+footer {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0px;
+}
+
 .introduction {
     text-align: center;
-    margin: 0 auto;
 }
 
 .introduction:hover {
@@ -34,7 +64,7 @@ h1 {
         color: rgb(219, 171, 109);
     }
     50% {
-        color: rgb(227, 192, 146);
+        color: rgb(231, 199, 158);
     }
     100% {
         color: rgb(219, 171, 109);
