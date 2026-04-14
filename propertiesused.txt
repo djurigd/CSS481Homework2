@@ -7,5 +7,4 @@ margin
 width
 color
 text-align
-transition
 animation
