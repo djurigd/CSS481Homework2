@@ -1,3 +1,43 @@
 body {
     background-color: cornsilk;
 }
+
+div {
+    display: flexbox;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    width: 1000px;
+}
+
+div h2 {
+    color: rgb(219, 171, 109);
+}
+
+h1 {
+    color: rgb(222, 180, 125);
+    text-align: center;
+}
+
+.introduction {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.introduction:hover {
+    animation: h2_color_change 4s infinite;
+}
+
+@keyframes h2_color_change {
+    0% {
+        color: rgb(219, 171, 109);
+    }
+    50% {
+        color: rgb(227, 192, 146);
+    }
+    100% {
+        color: rgb(219, 171, 109);
+    }
+}
+

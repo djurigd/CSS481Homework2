@@ -1,0 +1,11 @@
+background-color
+display
+font-family
+align-content
+justify-content
+margin
+width
+color
+text-align
+transition
+animation
