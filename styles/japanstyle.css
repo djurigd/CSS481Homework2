@@ -1,0 +1,90 @@
+body {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+video {
+    height: 480px;
+}
+
+iframe {
+    height: 480px;
+    width: 640px;
+}
+
+section.tokyo {
+    background-image: url(../images/tokyo.jpg);
+    background-size: contain;
+}
+
+section.osaka {
+    background-image: url(../images/osaka.jpg);
+    background-size: contain;
+}
+
+section.tokyo2 {
+    background-image: url(../images/tokyo2.jpg);
+    background-size: contain;
+}
+
+h3 {
+    color: rgb(254, 97, 97);
+    padding-left: 20px;
+}
+
+h4 {
+    color: rgb(253, 109, 109);
+    padding-left: 20px;
+}
+
+p, sub, sup {
+    color: rgb(255, 129, 129);
+    padding-left: 20px;
+    text-justify: inter-word;
+}
+
+div {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(3px);
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+#title {
+    font-weight: 250;
+    font-family: cursive;
+    font-size: 75px;
+    text-align: center;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-stretch: semi-expanded;
+    text-align: center;
+    font-style: oblique;
+    border: 10px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+#trip_overview {
+    font: oblique small-caps normal 50px cursive;
+    font-weight: 10;
+    font-family: cursive;
+    font-size: 50px;
+    text-align: center;
+    font-style: oblique;
+    border: 10px solid black;
+    border-right: 0px;
+    border-left: 0px;
+    margin-bottom: 0px;
+}
+
+.trip_rating {
+    text-align: center;
+}

@@ -1,0 +1,52 @@
+table {
+    border: 3px solid black;
+    table-layout: auto;
+    border-collapse: collapse;
+    text-justify: inter-word;
+}
+
+tr, td {
+    border: 3px solid black;
+    text-align: center;
+}
+
+td:first-child {
+    font-weight: 900;
+    opacity: 0.5;
+    text-shadow: 2px 2px black;
+}
+
+#artist_justice {
+    background-image: url(../images/justice.jpg);
+    background-size: contain;
+    color: white;
+}
+
+#artist_porter {
+    background-image: url(../images/porter.jpg);
+    background-size: contain;
+}
+
+#artist_madeon {
+    background-image: url(../images/madeon.jpg);
+    background-size: contain;
+    color: white;
+}
+
+#artist_ginger_root {
+    background-image: url(../images/ginger_root.jpg);
+    background-size: contain;
+    color: white;
+}
+
+#artist_sebastian {
+    background-image: url(../images/sebastian.jpg);
+    background-size: contain;
+    color: white;
+}
+
+#artist_kavinsky {
+    background-image: url(../images/kavinsky.jpg);
+    background-size: contain;
+    color: white;
+}
