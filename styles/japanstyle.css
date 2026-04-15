@@ -58,7 +58,7 @@ footer {
 
 #title {
     font-weight: 250;
-    font-family: cursive;
+    font-family: "Verdana", "Helvetica", "Arial", sans-serif;
     font-size: 75px;
     text-align: center;
     font-style: oblique;
@@ -73,12 +73,8 @@ footer {
 }
 
 #trip_overview {
-    font: oblique small-caps normal 50px cursive;
-    font-weight: 10;
-    font-family: cursive;
-    font-size: 50px;
+    font: oblique small-caps normal 50px "Verdana", "Helvetica", "Arial", sans-serif;
     text-align: center;
-    font-style: oblique;
     border: 10px solid black;
     border-right: 0px;
     border-left: 0px;

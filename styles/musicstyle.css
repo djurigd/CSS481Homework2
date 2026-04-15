@@ -16,6 +16,10 @@ td:first-child {
     text-shadow: 2px 2px black;
 }
 
+#introduction, footer {
+    text-align: center;
+}
+
 #artist_justice {
     background-image: url(../images/justice.jpg);
     background-size: contain;
